@@ -1,0 +1,45 @@
+//font-face
+@import "./font-face";
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: "Domine-Bold", "Montserrat-Bold", "Montserrat-Regular", "OpenSans-Bold", "OpenSans-Regular", sans-serif;
+}
+
+li {
+	list-style-type: none;
+}
+
+li:hover {
+	cursor: pointer;
+	background: grey;
+}
+
+img {
+	display: block;
+}
+
+//header
+@import "./header-block";
+
+
+//main
+@import "./main";
+
+
+//footer
+@import "./footer";
+
+//responsive design
+@import "./responsive";

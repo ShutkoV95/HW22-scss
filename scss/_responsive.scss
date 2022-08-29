@@ -1,0 +1,25 @@
+
+@media (max-width: 850px) {
+	.content1{
+		justify-content: flex-start;
+	}
+	.content-box {
+		margin-right: 0;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 650px) {
+	.menu-toggle {
+		display: flex;
+	}
+	.menu {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	.box-item1 h1 {
+		font-size: 30px;
+	}
+}
