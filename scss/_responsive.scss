@@ -1,4 +1,14 @@
 
+@media (max-width: 1000px) {
+
+	.forms__block_question {
+		justify-content: flex-start;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+}
+
 @media (max-width: 850px) {
 	.content1{
 		justify-content: flex-start;
@@ -16,10 +26,28 @@
 	.menu {
 		display: none;
 	}
+
+	.content2 img{
+		width: 55vw
+	}
 }
 
 @media (max-width: 400px) {
 	.box-item1 h1 {
 		font-size: 30px;
+	}
+
+	.content2 img{
+		width: 80vw
+	}
+
+	.portfolio {
+	padding-left: 20px;
+	}
+
+	.social-links {
+		width: 10%;
+		flex-wrap: wrap;
+		align-content: center;
 	}
 }
